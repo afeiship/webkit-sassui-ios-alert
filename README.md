@@ -6,3 +6,4 @@
 
 ## resources:
 + https://github.com/afeiship/generator-webkit-sassui
++ https://ionicframework.com/docs/components/#alert
