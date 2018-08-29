@@ -10,7 +10,6 @@
   .webkit-sassui-ios-alert > * {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
-    touch-action: none;
     -webkit-user-select: none;
     user-select: none; }
   .webkit-sassui-ios-alert > .hd {
