@@ -10,10 +10,13 @@ $webkit-sassui-ios-alert-options:(
   background-color: #f8f8f8;
   text-align: center;
 
-  -webkit-tap-highlight-color: transparent;
-	-webkit-touch-callout: none;
-	-ms-touch-action: none;
-	user-select: none;
+  &,
+  & > *{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -ms-touch-action: none;
+    user-select: none;
+  }
 
   >.hd{
     padding: 14px 16px;
@@ -34,6 +37,7 @@ $webkit-sassui-ios-alert-options:(
       font-size: 17px;
       color: #488aff;
       background-color: transparent;
+      user-select: none;
 
       &:active{
         opacity: .4

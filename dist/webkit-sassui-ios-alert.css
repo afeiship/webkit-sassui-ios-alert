@@ -5,11 +5,13 @@
   overflow: hidden;
   width: 75%;
   background-color: #f8f8f8;
-  text-align: center;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  -ms-touch-action: none;
-  user-select: none; }
+  text-align: center; }
+  .webkit-sassui-ios-alert,
+  .webkit-sassui-ios-alert > * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -ms-touch-action: none;
+    user-select: none; }
   .webkit-sassui-ios-alert > .hd {
     padding: 14px 16px;
     font-size: 17px;
@@ -23,7 +25,8 @@
     border-top: .55px solid #dbdbdf;
     font-size: 17px;
     color: #488aff;
-    background-color: transparent; }
+    background-color: transparent;
+    user-select: none; }
     .webkit-sassui-ios-alert > .ft button:active {
       opacity: .4; }
 
