@@ -38,6 +38,8 @@ $webkit-sassui-ios-alert-options:(
       color: #488aff;
       background-color: transparent;
       user-select: none;
+      opacity: 1;
+      transition: opacity 0.3s;
 
       &:active{
         opacity: .4

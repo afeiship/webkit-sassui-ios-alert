@@ -35,6 +35,8 @@
   color: #488aff;
   background-color: transparent;
   user-select: none;
+  opacity: 1;
+  transition: opacity 0.3s;
 }
 
 .webkit-sassui-ios-alert > .ft button:active {
