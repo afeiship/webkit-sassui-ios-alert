@@ -11,19 +11,58 @@
 
 <body>
 
-  <div class="webkit-sassui-ios-alert test-webkit-sassui-ios-alert">
+  <div id="alert1" class="webkit-sassui-ios-alert test-webkit-sassui-ios-alert" hidden>
     <div class="hd">
-       New Friend!
+      New Friend!
     </div>
     <div class="bd" id="alert-msg-13">Your friend, Obi wan Kenobi, just approved your friend request!</div>
     <div class="ft">
-      <button>Ok</button>
+      <button id="close1">Ok</button>
+    </div>
+  </div>
+
+
+  <div id="alert3" class="webkit-sassui-ios-alert test-webkit-sassui-ios-alert" hidden>
+    <div class="hd">
+      New Friend!
+    </div>
+    <div class="bd" id="alert-msg-13">Your friend, Obi wan Kenobi, just approved your friend request!</div>
+    <div class="ft">
+      <button id="close3">Ok</button>
       <button>Cancel</button>
       <button>Other options?</button>
     </div>
   </div>
 
+  <button id="btn1">Show Standard Alert</button>
+  <button id="btn3">Show Alert with 3 actions</button>
 
+  <script>
+    var alert1 = document.getElementById('alert1');
+    var alert3 = document.getElementById('alert3');
+    var btn1 = document.getElementById('btn1');
+    var btn3 = document.getElementById('btn3');
+    var close1 = document.getElementById('close1');
+    var close3 = document.getElementById('close3');
+
+    btn1.onclick = function () {
+      alert1.removeAttribute('hidden');
+    }
+
+    btn3.onclick = function () {
+      alert3.removeAttribute('hidden');
+    }
+
+    close1.onclick = function () {
+      alert1.setAttribute('hidden', true);
+    }
+
+    close3.onclick = function () {
+      alert3.setAttribute('hidden', true);
+    }
+
+
+  </script>
 
 </body>
 
