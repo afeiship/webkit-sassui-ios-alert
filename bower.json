@@ -1,0 +1,29 @@
+{
+  "name": "webkit-sassui-ios-alert",
+  "description": "Webkit sass for ios style alert",
+  "main": [
+    "dist/webkit-sassui-ios-alert.css",
+    "dist/webkit-sassui-ios-alert.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "ios-alert"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-sassui-ios-alert",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

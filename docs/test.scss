@@ -1,0 +1,23 @@
+@import "../dist/webkit-sassui-ios-alert.scss";
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background: rgba(#000,0.5);
+}
+
+button{
+  border: none;
+  background: no-clip;
+  &:focus{
+    outline: none;
+  }
+}
+.test-webkit-sassui-ios-alert{
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: fixed;
+}
