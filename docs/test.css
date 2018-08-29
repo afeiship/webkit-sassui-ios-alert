@@ -12,7 +12,7 @@
 .webkit-sassui-ios-alert > * {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
-  -ms-touch-action: none;
+  touch-action: none;
   user-select: none;
 }
 
@@ -42,6 +42,10 @@
 }
 
 /*webkit-sassui-ios-alert End*/
+.blank {
+  height: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
