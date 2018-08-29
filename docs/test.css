@@ -48,11 +48,19 @@ body {
 
 button {
   border: none;
-  background: no-clip;
 }
 
 button:focus {
   outline: none;
+}
+
+.button {
+  border: none;
+  background: #007aff;
+  padding: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #fff;
 }
 
 .test-webkit-sassui-ios-alert {
